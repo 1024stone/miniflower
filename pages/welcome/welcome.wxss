@@ -3,16 +3,32 @@
   height: 200rpx;
   margin-top: 160rpx;
 }
-
 .container{
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-
 .motto{
-  margin-top: 100dp;
-  color: #666;
+  margin-top: 100rpx;
   font-size: 32rpx;
   font-weight: bold;
+}
+.journey-container{
+  border: 1px solid #405f80;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 200rpx;
+}
+
+.journey{
+  font-weight: bold;
+  font-size: 22rpx;
+  color: #405f80;
+  line-height: 80rpx;
+}
+
+page{
+  background-color: #b3d4db;
 }
